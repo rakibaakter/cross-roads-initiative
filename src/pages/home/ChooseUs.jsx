@@ -6,18 +6,23 @@ import { Link } from "react-router-dom";
 
 const ChooseUs = () => {
   return (
-    <div className=" px-4 md:px-8 lg:px-20 mt-8 md:mt-16 lg:mt-24 lg:flex justify-between ">
-      <div className="lg:w-1/2">
+    <div className=" px-4 md:px-8 lg:px-20 mt-8 md:mt-16 lg:mt-32 lg:flex flex-row-reverse  ">
+      <div className="lg:w-1/2 ">
         <h2 className="text-3xl md:text-4xl font-medium tracking-wider">
           Why Choose Us
         </h2>
 
-        <p className="mt-6 text-gray-600 lg:mr-10">
-          Choose CrossRoads for global education impact. We connect 700,000
-          Bangladeshi dropouts with mentors worldwide. Our diverse team and
-          successful initiatives have mentored thousands, providing pathways to
-          scholarships and university education. Join us in transforming lives
-          through accessible education.
+        <p className="mt-6 text-gray-600 ">
+          Choose CrossRoads Initiative for a global approach to education. We
+          bridge the gap between 700,000 Bangladeshi high-school dropouts and
+          university students worldwide through our P2P mentorship platform. Our
+          diverse team from eight countries facilitates a unique global
+          perspective. Since May 2019, we've mentored over 3,200 individuals
+          physically and 39,000+ digitally. Our 'Super 50' project empowers
+          students for scholarships and university education. Collaborations
+          with Prothom Alo, the Ministry of Education, and support from StartUp
+          Bangladesh showcase our impact. Join us in transforming lives through
+          accessible education and global connections.
         </p>
         <Link
           to="/about"
@@ -26,7 +31,7 @@ const ChooseUs = () => {
           Explore More
         </Link>
       </div>
-      <div className="lg:w-1/2 space-y-6 mt-8 lg:mt-0">
+      <div className="lg:w-1/2 lg:pr-16 space-y-6 mt-8 lg:mt-0">
         <div className="flex gap-4 bg-base-100 shadow-md">
           <div className="bg-gray-200 py-2 px-6 flex items-center">
             <IoGlobeOutline size={36} color="red" />

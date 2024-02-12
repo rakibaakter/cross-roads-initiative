@@ -3,13 +3,12 @@ import team from "../../assets/team.jpg";
 const Mentorship = () => {
   return (
     <div className=" px-4 md:px-8 lg:px-20 mt-8  md:mt-16 lg:mt-20">
-      <div className="text-center">
-        <h2 className="text-2xl md:text-4xl font-medium tracking-wider ">
-          Mentorship Platform For Higher Education Abroad
-        </h2>
-      </div>
+      <div className="text-center"></div>
       <div className="mt-8 md:mt-12 flex flex-col-reverse md:flex-row md:items-end">
         <div className="md:w-1/2 lg:font-medium tracking-wider  md:pr-4 lg:pr-16 ">
+          <h2 className="text-2xl lg:text-4xl font-medium tracking-wider ">
+            Mentorship Platform For Higher Education Abroad
+          </h2>
           <h3 className="mt-4 lg:text-2xl text-red-600 font-medium lg:font-semibold">
             Are you looking for a scholarship to study abroad?
             <br /> You are in the right place!
@@ -24,10 +23,6 @@ const Mentorship = () => {
               Our platform allows university & high-school student from any
               country of the world to sign-up and receive mentoring by a student
               from their desired university program.
-            </p>
-            <p>
-              Last year, we helped students receive 70+ scholarships in top
-              universities!
             </p>
           </div>
         </div>
