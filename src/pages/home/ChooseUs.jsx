@@ -5,7 +5,7 @@ import { TbLockAccess } from "react-icons/tb";
 
 const ChooseUs = () => {
   return (
-    <div className=" px-4 md:px-8 lg:px-20 mt-8 md:mt-16 lg:flex justify-between items-center">
+    <div className=" px-4 md:px-8 lg:px-20 mt-8 md:mt-16 lg:flex justify-between ">
       <div className="lg:w-1/2">
         <h2 className="text-3xl md:text-4xl font-medium tracking-wider">
           Why Choose Us
@@ -14,6 +14,13 @@ const ChooseUs = () => {
           Are you looking for a scholarship to study abroad?
           <br /> You are in the right place!
         </h3>
+        <p className="mt-6 text-gray-600 lg:mr-10">
+          Choose CrossRoads for global education impact. We connect 700,000
+          Bangladeshi dropouts with mentors worldwide. Our diverse team and
+          successful initiatives have mentored thousands, providing pathways to
+          scholarships and university education. Join us in transforming lives
+          through accessible education.
+        </p>
       </div>
       <div className="lg:w-1/2 space-y-6 mt-8 lg:mt-0">
         <div className="flex gap-4 bg-base-100 shadow-md">
