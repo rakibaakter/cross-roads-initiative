@@ -1,7 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import Layout from "../layout/Layout";
 
-const router = createBrowserRouter([
+const Router = createBrowserRouter([
   {
     path: "/",
     element: <Layout />,
@@ -15,4 +15,4 @@ const router = createBrowserRouter([
   },
 ]);
 
-export default router;
+export default Router;
