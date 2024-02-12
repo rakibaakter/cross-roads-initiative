@@ -2,6 +2,7 @@ import { IoGlobeOutline } from "react-icons/io5";
 import { BsPersonWorkspace } from "react-icons/bs";
 import { BiCollapse } from "react-icons/bi";
 import { TbLockAccess } from "react-icons/tb";
+import { Link } from "react-router-dom";
 
 const ChooseUs = () => {
   return (
@@ -21,6 +22,12 @@ const ChooseUs = () => {
           scholarships and university education. Join us in transforming lives
           through accessible education.
         </p>
+        <Link
+          to="/about"
+          className="btn mt-4 bg-red-600 text-white uppercase hover:bg-black "
+        >
+          Explore More
+        </Link>
       </div>
       <div className="lg:w-1/2 space-y-6 mt-8 lg:mt-0">
         <div className="flex gap-4 bg-base-100 shadow-md">
