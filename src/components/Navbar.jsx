@@ -65,7 +65,7 @@ const Navbar = () => {
     </>
   );
   return (
-    <div className="navbar bg-base-100 px-4 md:px-8 lg:px-20">
+    <div className="navbar fixed z-10 bg-base-100 px-4 md:px-8 lg:px-20">
       <div className="navbar-start w-1/3">
         <Link>
           <h2 className="uppercase text-xs md:text-xl lg:text-2xl font-bold md:font-semibold">
