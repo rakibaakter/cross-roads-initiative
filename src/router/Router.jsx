@@ -4,6 +4,8 @@ import Home from "../pages/home/Home";
 import About from "../pages/about/About";
 import ErrorPage from "../pages/error/ErrorPage";
 import ComingSoon from "../components/ComingSoon";
+import Login from "../pages/login/Login";
+import Register from "../pages/register/Register";
 
 const Router = createBrowserRouter([
   {
@@ -26,6 +28,14 @@ const Router = createBrowserRouter([
       {
         path: "/dashboard",
         element: <ComingSoon />,
+      },
+      {
+        path: "/sign-in",
+        element: <Login />,
+      },
+      {
+        path: "/sign-up",
+        element: <Register />,
       },
     ],
   },
