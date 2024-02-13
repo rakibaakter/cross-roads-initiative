@@ -1,6 +1,7 @@
 import Banner from "./Banner";
 import ChooseUs from "./ChooseUs";
 import Mentorship from "./Mentorship";
+import Services from "./Services";
 import ShortInfo from "./ShortInfo";
 
 const Home = () => {
@@ -9,6 +10,7 @@ const Home = () => {
       <Banner />
       <Mentorship />
       <ChooseUs />
+      <Services />
       <ShortInfo />
     </div>
   );
