@@ -63,7 +63,7 @@ const Register = () => {
   };
 
   return (
-    <div className="hero pt-10">
+    <div className="hero ">
       <div className="hero-content flex-col md:flex-row">
         <div className="md:w-1/2">
           <img src={loginImg} alt="" />
