@@ -7,6 +7,7 @@ import clg4 from "../../assets/clg4.png";
 import clg5 from "../../assets/cl5.png";
 import clg6 from "../../assets/clg6.png";
 import Marquee from "react-fast-marquee";
+import SectionTitle from "../../components/SectionTitle";
 
 const ShortInfo = () => {
   const universities = [
@@ -24,11 +25,14 @@ const ShortInfo = () => {
     clg3,
   ];
   return (
-    <div className=" px-4 mt-12 md:mt-16 lg:mt-32 text-center">
-      <h3 className="mt-4 lg:text-3xl text-red-600 capitalize font-medium lg:font-semibold mb-12 lg:mb-24">
-        Last year, we helped students receive 70+ scholarships in top
-        universities!
-      </h3>
+    <div className=" mt-12 md:mt-16 lg:mt-32 text-center">
+      <div className=" mx-4 md:mx-8 lg:mx-20 capitalize">
+        <SectionTitle
+          title={"Scholarship"}
+          subtitle={"Last year, we helped students receive"}
+          highlight={"70+ scholarships in top universities!"}
+        />
+      </div>
       <Marquee>
         {universities.map((university, index) => (
           <img

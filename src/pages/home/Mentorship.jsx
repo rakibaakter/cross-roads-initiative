@@ -1,4 +1,5 @@
 import team from "../../assets/team.jpg";
+import SectionTitle from "../../components/SectionTitle";
 
 const Mentorship = () => {
   return (
@@ -6,9 +7,10 @@ const Mentorship = () => {
       <div className="text-center"></div>
       <div className="mt-8 md:mt-12 flex flex-col-reverse md:flex-row md:items-end">
         <div className="md:w-1/2 lg:font-medium tracking-wider  md:pr-4 lg:pr-16 ">
-          <h2 className="text-2xl lg:text-4xl font-medium tracking-wider ">
-            Mentorship Platform For Higher Education Abroad
-          </h2>
+          <SectionTitle
+            title={"Mentorship"}
+            subtitle={" Mentorship Platform For Higher Education Abroad"}
+          />
           <h3 className="mt-4 lg:text-2xl text-[#DF826C] font-medium lg:font-semibold">
             Are you looking for a scholarship to study abroad?
             <br /> You are in the right place!

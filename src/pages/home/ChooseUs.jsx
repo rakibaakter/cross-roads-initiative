@@ -4,14 +4,17 @@ import { BiCollapse } from "react-icons/bi";
 import { TbLockAccess } from "react-icons/tb";
 import { IoAirplaneOutline } from "react-icons/io5";
 import { Link } from "react-router-dom";
+import SectionTitle from "../../components/SectionTitle";
 
 const ChooseUs = () => {
   return (
     <div className=" px-4 md:px-8 lg:px-20 mt-8 md:mt-16 lg:mt-32 lg:flex flex-row-reverse  ">
       <div className="lg:w-1/2 ">
-        <h2 className="text-3xl md:text-4xl font-medium tracking-wider">
-          Why Choose Us
-        </h2>
+        <SectionTitle
+          title={"Choose"}
+          subtitle={"Why Choose"}
+          highlight={"Us"}
+        />
 
         <p className="mt-6 text-gray-600 ">
           Choose CrossRoads Initiative for a global approach to education. We
