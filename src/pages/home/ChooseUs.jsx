@@ -2,6 +2,7 @@ import { IoGlobeOutline } from "react-icons/io5";
 import { BsPersonWorkspace } from "react-icons/bs";
 import { BiCollapse } from "react-icons/bi";
 import { TbLockAccess } from "react-icons/tb";
+import { IoAirplaneOutline } from "react-icons/io5";
 import { Link } from "react-router-dom";
 
 const ChooseUs = () => {
@@ -26,9 +27,10 @@ const ChooseUs = () => {
         </p>
         <Link
           to="/about"
-          className="btn mt-4 bg-red-600 text-white uppercase hover:bg-black "
+          className="btn mt-4 bg-[#DF826C] text-white uppercase hover:bg-black "
         >
           Explore More
+          <IoAirplaneOutline />
         </Link>
       </div>
       <div className="lg:w-1/2 lg:pr-16 space-y-6 mt-8 lg:mt-0">

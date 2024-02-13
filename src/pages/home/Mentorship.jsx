@@ -9,7 +9,7 @@ const Mentorship = () => {
           <h2 className="text-2xl lg:text-4xl font-medium tracking-wider ">
             Mentorship Platform For Higher Education Abroad
           </h2>
-          <h3 className="mt-4 lg:text-2xl text-red-600 font-medium lg:font-semibold">
+          <h3 className="mt-4 lg:text-2xl text-[#DF826C] font-medium lg:font-semibold">
             Are you looking for a scholarship to study abroad?
             <br /> You are in the right place!
           </h3>
