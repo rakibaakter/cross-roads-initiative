@@ -3,6 +3,7 @@ import ChooseUs from "./ChooseUs";
 import Mentorship from "./Mentorship";
 import Services from "./Services";
 import ShortInfo from "./ShortInfo";
+import Testimonials from "./Testimonials";
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       <ChooseUs />
       <Services />
       <ShortInfo />
+      <Testimonials />
     </div>
   );
 };

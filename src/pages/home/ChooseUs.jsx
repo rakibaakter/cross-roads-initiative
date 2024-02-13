@@ -9,7 +9,7 @@ import SectionTitle from "../../components/SectionTitle";
 const ChooseUs = () => {
   return (
     <div className=" px-4 md:px-8 lg:px-20 mt-8 md:mt-16 lg:mt-32 lg:flex flex-row-reverse  ">
-      <div className="lg:w-1/2 ">
+      <div className="lg:w-1/2">
         <SectionTitle
           title={"Choose"}
           subtitle={"Why Choose"}
