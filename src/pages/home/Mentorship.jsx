@@ -6,7 +6,10 @@ const Mentorship = () => {
     <div className=" px-4 md:px-8 lg:px-20 mt-8  md:mt-16 lg:mt-20">
       <div className="text-center"></div>
       <div className="mt-8 md:mt-12 flex flex-col-reverse md:flex-row md:items-end">
-        <div className="md:w-1/2 lg:font-medium tracking-wider  md:pr-4 lg:pr-16 ">
+        <div
+          data-aos="fade-right"
+          className="md:w-1/2 lg:font-medium tracking-wider  md:pr-4 lg:pr-16 "
+        >
           <SectionTitle
             title={"Mentorship"}
             subtitle={" Mentorship Platform For Higher Education Abroad"}
@@ -28,7 +31,7 @@ const Mentorship = () => {
             </p>
           </div>
         </div>
-        <div className="md:w-1/2">
+        <div data-aos="fade-left" className="md:w-1/2">
           <img src={team} alt="" />
         </div>
       </div>
